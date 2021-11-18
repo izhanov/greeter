@@ -1,21 +1,23 @@
 # Greeter
 
-**TODO: Add description**
+Dummy Elixir app created via Mix.
 
-## Installation
+## Requirements
+Erlang/OTP 24
+Elixir 1.12.3
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `greeter` to your list of dependencies in `mix.exs`:
+## Usage
 
-```elixir
-def deps do
-  [
-    {:greeter, "~> 0.1.0"}
-  ]
-end
+In cloned dir hit in your console:
+
+```bash
+iex -S mix
 ```
+Starting iex this way will load your application and dependencies into the current runtime.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/greeter](https://hexdocs.pm/greeter).
+Then you can run this function:
 
+```bash
+iex(1)> Greeter.hello_world()
+=> "hello, world"
+```
